@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendly.Core", "Calendly.C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{20C0E3A0-4367-4594-B003-BDE03E4A1C4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendly.Tests", "Calendly.Tests\Calendly.Tests.csproj", "{A3BCAAE4-664F-4DCF-B50B-0BB01EF00919}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendly.Core.Tests", "Calendly.Core.Tests\Calendly.Core.Tests.csproj", "{1BB59E4F-F31B-40F0-9F89-82DEA6AF8920}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendly.Core.Implementation.SmsClient", "Calendly.Core.Implementation.SmsClient.Twilio\Calendly.Core.Implementation.SmsClient.csproj", "{4F1C6BED-98E2-47CA-8BFA-BE9CD87DE916}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendly.Tests", "Tests\Calendly.Tests\Calendly.Tests.csproj", "{38093FD9-3E11-4987-957D-7A8743CCC753}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendly.Core.Tests", "Tests\Calendly.Core.Tests\Calendly.Core.Tests.csproj", "{4D0855CA-4A99-4F57-980F-E2AB6E7223B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,25 +29,25 @@ Global
 		{3C20AB26-16D6-4B1D-9632-1FA8BEECED09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C20AB26-16D6-4B1D-9632-1FA8BEECED09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C20AB26-16D6-4B1D-9632-1FA8BEECED09}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3BCAAE4-664F-4DCF-B50B-0BB01EF00919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3BCAAE4-664F-4DCF-B50B-0BB01EF00919}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3BCAAE4-664F-4DCF-B50B-0BB01EF00919}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3BCAAE4-664F-4DCF-B50B-0BB01EF00919}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BB59E4F-F31B-40F0-9F89-82DEA6AF8920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BB59E4F-F31B-40F0-9F89-82DEA6AF8920}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BB59E4F-F31B-40F0-9F89-82DEA6AF8920}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BB59E4F-F31B-40F0-9F89-82DEA6AF8920}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F1C6BED-98E2-47CA-8BFA-BE9CD87DE916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F1C6BED-98E2-47CA-8BFA-BE9CD87DE916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F1C6BED-98E2-47CA-8BFA-BE9CD87DE916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F1C6BED-98E2-47CA-8BFA-BE9CD87DE916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38093FD9-3E11-4987-957D-7A8743CCC753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38093FD9-3E11-4987-957D-7A8743CCC753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38093FD9-3E11-4987-957D-7A8743CCC753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38093FD9-3E11-4987-957D-7A8743CCC753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0855CA-4A99-4F57-980F-E2AB6E7223B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0855CA-4A99-4F57-980F-E2AB6E7223B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0855CA-4A99-4F57-980F-E2AB6E7223B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0855CA-4A99-4F57-980F-E2AB6E7223B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A3BCAAE4-664F-4DCF-B50B-0BB01EF00919} = {20C0E3A0-4367-4594-B003-BDE03E4A1C4D}
-		{1BB59E4F-F31B-40F0-9F89-82DEA6AF8920} = {20C0E3A0-4367-4594-B003-BDE03E4A1C4D}
+		{38093FD9-3E11-4987-957D-7A8743CCC753} = {20C0E3A0-4367-4594-B003-BDE03E4A1C4D}
+		{4D0855CA-4A99-4F57-980F-E2AB6E7223B0} = {20C0E3A0-4367-4594-B003-BDE03E4A1C4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FDA2685-9B91-41E0-B8B8-C617AEBAFA73}

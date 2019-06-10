@@ -27,7 +27,7 @@ namespace Calendly.Core.Handlers
             //could result in a message with blank names if the request did truly
             //come in with an empty name
             var invitee = request?.RequestData?.payload?.invitee;
-            var to = _config["PhoneNumber"];
+            var to = _config["PhoneNumber"]; //Comes from secrets
 
             //We shouldn't get a message without first_name and last_name, but just in case
             string message;

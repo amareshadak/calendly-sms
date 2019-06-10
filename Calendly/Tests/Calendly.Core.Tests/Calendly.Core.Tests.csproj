@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Calendly.Core\Calendly.Core.csproj" />
+    <ProjectReference Include="..\..\Calendly.Core\Calendly.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

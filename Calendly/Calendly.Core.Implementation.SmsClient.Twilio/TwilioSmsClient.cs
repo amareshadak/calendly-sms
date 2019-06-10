@@ -20,12 +20,12 @@ namespace Calendly.Core.Implementation.SmsClient
 
         public async Task Send(string to, string message)
         {
-            var accountSid = _config["Twilio:AccountSid"];
-            var authToken = _config["Twilio:AuthToken"];
+            var accountSid = _config["Twilio:AccountSid"]; //from secrets
+            var authToken = _config["Twilio:AuthToken"]; //from secrets
             TwilioClient.Init(accountSid, authToken);
 
             //Send message
-            var from = _config["Twilio:FromPhoneNo"];
+            var from = _config["Twilio:FromPhoneNo"]; //from secrets
             var result = await MessageResource.CreateAsync(
                     to: new PhoneNumber(to),
                     from: new PhoneNumber(from),
